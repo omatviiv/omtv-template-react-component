@@ -1,0 +1,6 @@
+- use jest + snapshot tests
+- add clone.sh script
+============
++ use clean-webpack-plugin and devserver
++ for html-webpack-plugin title use this
+  https://github.com/webpack/webpack/issues/237
