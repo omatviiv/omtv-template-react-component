@@ -1,6 +1,10 @@
+% try to publish to npm via omtv-react-input and test if it works fine
+  with webpack config of the destination project
 - use jest + snapshot tests
-- add clone.sh script
-============
+- test how this component would work with commonjs require
+- test how this component would work with node modules (experimental)
+------------------------------------done---------------------------------------
++ add clone.sh script
 + use clean-webpack-plugin and devserver
 + for html-webpack-plugin title use this
   https://github.com/webpack/webpack/issues/237
