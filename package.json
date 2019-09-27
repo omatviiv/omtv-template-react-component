@@ -1,12 +1,11 @@
 {
   "name": "omtv-template-react-component",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "template for creating not bundeled react component",
   "main": "component/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
-    "dev": "webpack --mode=development",
     "demo": "webpack-dev-server --mode development",
     "prepublishOnly": "npm run test; npm run build"
   },

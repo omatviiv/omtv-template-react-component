@@ -12,5 +12,6 @@ Show how to use your component
 ```
 
 # Start component development
-1. Start webpack dev server for demo project `npm run demo`.
-2. Develop your component.
+1. Install dependencies `npm i`.
+2. Start webpack dev server for demo project `npm run demo`.
+3. Develop your component.

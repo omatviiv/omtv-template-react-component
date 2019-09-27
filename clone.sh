@@ -1,10 +1,13 @@
 echo cloning new component: $1
+mkdir -p $1
 echo ==copy demo folder
 cp -rf ./demo $1/
 echo ==copy component folder
-cp -rf ./component $1/
+cp -rf ./component $1/component
 echo ==copy .gitignore
 cp ./.gitignore $1/
+echo ==copy .npmignore
+cp ./.npmignore $1/
 echo ==copy README.md
 cp ./README-COMPONENT.md $1/README.md
 echo ==copy RELEASES.md
