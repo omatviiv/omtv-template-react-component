@@ -1,13 +1,6 @@
-// @flow
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Component from '../component';
-
-const App = () => (
-  <div>
-    demo <Component />
-  </div>
-);
+import App from './app';
 
 ReactDOM.render(<App />, document.getElementById('app'));
