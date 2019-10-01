@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Component from '../component';
+import Component from 'componnt';
 
 const App = () => (
   <div>

@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
+export const Div = styled.div`
   padding: 10px;
   border: 1px solid green;
 `;
