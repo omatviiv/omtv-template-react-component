@@ -1,4 +1,4 @@
-- use jest + snapshot tests
+* use jest + snapshot tests
 - use node to generate html demo page for the component and create a separate
   npm script to generate that html page and publish it
 - test how this component would work with commonjs require in nodejs
@@ -6,7 +6,8 @@
 - add note about theming
 
 # Done + add flow with Comment Types - (add it to the demo webpack bundle)
-* remove RELEASES.md and rename todo > todo.md and simply use it as single
++ add styled-components
++ remove RELEASES.md and rename todo > todo.md and simply use it as single
   source of truth making done section a releases section, so that it is
   always clear what is included in which release
   + do it both for todo and todo-component

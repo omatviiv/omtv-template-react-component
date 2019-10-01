@@ -1,13 +1,18 @@
 // @flow
 import React from 'react';
+import styled from 'styled-components';
 
+const Div = styled.div`
+  padding: 10px;
+  border: 1px solid green;
+`;
 /*::
 type Props = {|
   value: string,
 |}
 */
 const Component = (p/*: Props*/) => (
-  <div>this is the Component with this value:{ p.value }</div>
+  <Div>this is the Component with this value:{ p.value }</Div>
 );
 
 export default Component;
