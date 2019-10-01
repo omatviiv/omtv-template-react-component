@@ -1,5 +1,3 @@
-- npmignore todo, jestsetup.js, jest.config.js, .test.js files, snspshots
-  - sync into omtv-react-input
 - use node to generate html demo page for the component and create a separate
   npm script to generate that html page and publish it
 - test how this component would work with commonjs require in nodejs
@@ -7,6 +5,8 @@
 - add note about theming
 
 # Done
++ npmignore todo, jestsetup.js, jest.config.js, .test.js files, snspshots
+  + sync into omtv-react-input
 + jest with snapshot tests
   we need .babelrc for babel-jest to work properly
   renamed `component` mapping to `componnt` to avoid `component-emmiter` conflict
