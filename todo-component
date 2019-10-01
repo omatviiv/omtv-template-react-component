@@ -1,5 +1,0 @@
-% update package.json with project specific data
-  name (unique on npmjs), description, repository, bugs and homepage urls
-- implement component
-- update docs with specific instructions for a component(s)
-------------------------------------done---------------------------------------
