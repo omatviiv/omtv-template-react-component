@@ -1,10 +1,16 @@
-- use node to generate html demo page for the component and create a separate
-  npm script to generate that html page and publish it
-- test how this component would work with commonjs require in nodejs
-- test how this component would work with node modules (experimental) in nodejs
-- add note about theming
+* publish component script on vps
+- theming
+  - add theming approach description or link to it
+- scp2 lodash vulnerability
+  https://github.com/spmjs/node-scp2/issues/116
+  https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ publish demo `npm run publish-demo` npm script
+  use what is built by webpack in demo/dist as a demo page
+  matviiv.com/my-component <- demo page for my-component
+  demo publish address part should be added to .gitignore for security
+  + document publish demo in README-COMPONENT
 + npmignore todo, jestsetup.js, jest.config.js, .test.js files, snspshots
   + sync into omtv-react-input
 + jest with snapshot tests
