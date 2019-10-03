@@ -1,4 +1,5 @@
 Component description.
+Supports [theming](https://github.com/omatviiv/omtv-template-react-component#component-theming-approach).
 
 Check component [demo](http://link.to.your/component-demo).
 

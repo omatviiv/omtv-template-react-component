@@ -2,17 +2,31 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const Div = styled.div`
-  padding: 10px;
-  border: 1px solid green;
-`;
 /*::
+import type { Node } from 'react';
+
 type Props = {|
   value: string,
+  theme?: {|
+    Main: * => Node,
+    Strong: * => Node,
+  |},
 |}
 */
-const Component = (p/*: Props*/) => (
-  <Div>this is the Component with this value:{ p.value }</Div>
+const Component = ({
+  value,
+  theme = {
+    Main: styled.div`
+      padding: 10px;
+      border: 1px solid green;
+    `,
+    Strong: styled.strong``,
+  },
+}/*: Props*/) => (
+  <theme.Main>
+    Component with value '{ value }' and
+    <theme.Strong> subwrapper</theme.Strong>
+  </theme.Main>
 );
 
 export default Component;
