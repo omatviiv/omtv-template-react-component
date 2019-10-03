@@ -1,4 +1,6 @@
-Component description
+Component description.
+
+Check component [demo](http://link.to.your/component-demo).
 
 # Install
 ```

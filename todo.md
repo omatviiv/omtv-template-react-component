@@ -1,4 +1,3 @@
-* publish component script on vps
 - theming
   - add theming approach description or link to it
 - scp2 lodash vulnerability
@@ -6,6 +5,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ publish component script on vps
 + publish demo `npm run publish-demo` npm script
   use what is built by webpack in demo/dist as a demo page
   matviiv.com/my-component <- demo page for my-component
