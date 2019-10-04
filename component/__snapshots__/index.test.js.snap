@@ -2,12 +2,16 @@
 
 exports[`Component renders with value 1`] = `
 <styled.div>
-  this is the Component with this value:
+  Component with value '
   test
+  ' and
+  <styled.strong>
+     subwrapper
+  </styled.strong>
 </styled.div>
 `;
 
-exports[`Component styled Div 1`] = `
+exports[`Component theme Main 1`] = `
 .c0 {
   padding: 10px;
   border: 1px solid green;
@@ -15,5 +19,11 @@ exports[`Component styled Div 1`] = `
 
 <div
   className="c0"
+/>
+`;
+
+exports[`Component theme Strong 1`] = `
+<strong
+  className=""
 />
 `;
