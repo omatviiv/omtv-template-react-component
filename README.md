@@ -52,4 +52,5 @@ The `theme` prop has a default value so component can be use with default theme.
 # Improve template
 - `npm i` - install packages
 - `npm run demo` - run demo react app for the Component
+- `npm run jest` (optional) - run jest in watch mode
 - improve template

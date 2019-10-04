@@ -1,8 +1,11 @@
+- test default theme
 - scp2 lodash vulnerability
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ test watch npm script
+  + document it in README-COMPONENT and maybe README
 + theming
   + add theming approach description or link to it
 + publish component script on vps
