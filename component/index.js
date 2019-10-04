@@ -13,7 +13,7 @@ type Props = {|
   |},
 |}
 */
-export const theme = {
+export const thm = {
   Main: styled.div`
     padding: 10px;
     border: 1px solid green;
@@ -22,12 +22,12 @@ export const theme = {
 };
 const Component = ({
   value,
-  thm = theme,
+  theme = thm,
 }/*: Props*/) => (
-  <thm.Main>
+  <theme.Main>
     Component with value '{ value }' and
-    <thm.Strong> subwrapper</thm.Strong>
-  </thm.Main>
+    <theme.Strong> subwrapper</theme.Strong>
+  </theme.Main>
 );
 
 export default Component;
