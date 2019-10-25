@@ -3,6 +3,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ modify clone.sh so that it copies all required files
 + test default theme
 + test watch npm script
   + document it in README-COMPONENT and maybe README
