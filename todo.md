@@ -3,6 +3,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ add viewport meta to index.html
 + modify clone.sh so that it copies all required files
 + test default theme
 + test watch npm script
