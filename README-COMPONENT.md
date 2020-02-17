@@ -5,7 +5,7 @@ Check component [demo](http://link.to.your/component-demo).
 
 # Install
 ```
-npm i your-component-name
+npm i my-component
 ```
 
 # Use

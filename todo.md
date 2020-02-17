@@ -1,10 +1,11 @@
-[//]: # (commit staged "describe scp2 vulnerability")
+[//]: # (stage & commit 'style default demo with omtv-theme')
 - scp2 lodash vulnerability (not critical because scp2 is only used for
   deploy script)
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ style default demo with omtv-theme
 + describe scp2 vulnerability
 + add viewport meta to index.html
 + modify clone.sh so that it copies all required files

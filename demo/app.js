@@ -1,13 +1,14 @@
 // @flow
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { H1 } from 'omtv-theme';
 
-import Component from 'componnt';
+import Article0 from 'demo/article0';
 
 const App = () => (
-  <div>
-    demo <Component value='test' />
-  </div>
+  <>
+    <H1>my-component</H1>
+    <Article0 />
+  </>
 );
 
 export default App;
