@@ -47,7 +47,7 @@ export default Component;
 This example uses flow [Comment Types](https://flow.org/en/docs/types/comments/)
 so that it could be simply ignored.
 
-The `theme` prop has a default value so component can be use with default theme.
+The `theme` prop has a default value so component can be used with default theme.
 
 # Improve template
 - `npm i` - install packages
