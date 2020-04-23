@@ -5,6 +5,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # Done
++ webpack to show only warnings and erros
 + configure jest to support including some unbundled packages
 + style default demo with omtv-theme
 + describe scp2 vulnerability
