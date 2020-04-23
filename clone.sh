@@ -16,8 +16,8 @@ echo ==copy jest.config.js
 cp ./jest.config.js $1/
 echo ==copy .flowconfig
 cp .flowconfig $1/
-echo ==copy .babelrc
-cp .babelrc $1/
+echo ==copy babel.config.js
+cp babel.config.js $1/
 echo ==copy README.md
 cp ./README-COMPONENT.md $1/README.md
 echo ==copy todo
